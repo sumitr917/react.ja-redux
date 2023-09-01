@@ -33,21 +33,21 @@ function App() {
 
   return (
 
-    <Provider store={charaStore}>
+  <Provider store={charaStore}>
     <div className="App">
-       <div className="col-md-4">
-         <CharacterComponent />
-         </div>
-
-         <div className="col-md-4">
-         <HerosComponent />
-         </div>
-
-         <div className="col-md-4">
-         <SquadStats />
-         </div>
+      <div className="col-md-4">
+        <CharacterComponent />
       </div>
-      </Provider>
+
+      <div className="col-md-4">
+      <HerosComponent />
+      </div>
+
+      <div className="col-md-4">
+      <SquadStats />
+      </div>
+    </div>
+  </Provider>
 
 
 
